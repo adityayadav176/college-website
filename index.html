@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!------------- HEADER SECTION --------------->
+  <section class="header" id="home">
+    <nav>
+      <a href="#"><img src="logo.png" alt="University Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#courses">COURSE</a></li>
+          <li><a href="#campus-2">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>World's Biggest University</h1>
+      <p>Manorama College is the doorway to knowledge and endless opportunities. 🎓</p>
+      <a href="#" class="hero-btn">Visit Us To Know More</a>
+    </div>
+  </section>
+
+  <!------------- COURSES SECTION -------------->
+  <section class="Courses" id="courses">
+    <h1>Courses We Offer</h1>
+    <p>Hey! These courses are very helpful for you.</p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>BCA</h3>
+        <p>BCA stands for Bachelor of Computer Applications.
+It’s a 3-year undergraduate degree course focused on computer science, programming, and IT applications.
+It’s one of the best options for students who want to make a career in the IT and software industry.</p>
+      </div>
+      <div class="course-col">
+        <h3>BPES</h3>
+        <p>BPES stands for Bachelor of Physical Education and Sports.
+It’s a 3-year undergraduate degree that focuses on physical fitness, sports science, health education, and training.
+This course is perfect for students who are passionate about sports, physical fitness, and coaching.</p>
+      </div>
+      <div class="course-col">
+        <h3>BBA</h3>
+        <p>BBA stands for Bachelor of Business Administration — a 3-year undergraduate degree in business management and administration.
+
+It teaches you how businesses work, how to manage teams, handle finances, market products, and make business decisions.
+👉 It’s perfect for students who want to become business professionals, entrepreneurs, or managers.</p>
+      </div>
+      <div class="course-col">
+        <h3>B.COM</h3>
+        <p>B.Com stands for Bachelor of Commerce — It's a 3-year undergraduate degree in commerce, business, and finance.
+It focuses on understanding how businesses, companies, and economies work, covering accounting, management, taxation, economics, and finance.
+
+It’s ideal for students who took Commerce in 12th or want a career in business, banking, finance, or accounting.</p>
+      </div>
+      <div class="course-col">
+        <h3>B.S.C (MATH/BIO)</h3>
+        <p>B.Sc stands for Bachelor of Science — a 3-year undergraduate degree focused on science and technical subjects.
+It helps students build a strong foundation in scientific concepts, research, and practical applications.
+
+It is one of the most popular courses after 12th Science (PCM, PCB, or PCMB).</p>
+      </div>
+      <div class="course-col">
+        <h3>B.ED</h3>
+        <p>B.Ed stands for Bachelor of Education — a professional undergraduate degree that prepares students to become teachers at the primary, secondary, and higher secondary levels in schools.
+
+It is not an academic degree like B.A or B.Sc; it is a professional training program focused on teaching methods, educational psychology, and classroom management.</p>
+      </div>
+    </div>
+  </section>
+
+  <!------------- CAMPUS SECTION -------------->
+  <section class="campus" id="campus-2">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+      <div class="campus-col">
+        <img src="london.png" alt="London Campus">
+        <div class="layer"><h3>LONDON</h3></div>
+      </div>
+      <div class="campus-col">
+        <img src="newyork.png" alt="New York Campus">
+        <div class="layer"><h3>NEW YORK</h3></div>
+      </div>
+      <div class="campus-col">
+        <img src="washington.png" alt="Washington Campus">
+        <div class="layer"><h3>WASHINGTON</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!------------- FACILITIES SECTION -------------->
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="library.png" alt="Library">
+        <h3>World Class Library</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="basketball.png" alt="Playground">
+        <h3>Largest Playground</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="cafeteria.png" alt="Cafeteria">
+        <h3>Tasty & Healthy Food</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!------------- TESTIMONIAL SECTION -------------->
+  <section class="testimonial">
+    <h1>What Our Students Say</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+      <div class="testimonial-col">
+        <img src="user1.jpg" alt="Student 1">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, harum.</p>
+          <h3>Christine Berkley</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+      </div>
+
+      <div class="testimonial-col">
+        <img src="user2.jpg" alt="Student 2">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, harum.</p>
+          <h3>David Byer</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------- CALL TO ACTION SECTION -------------->
+  <section class="cta">
+    <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+    <a href="#" class="hero-btn">Contact Us</a>
+  </section>
+
+  <!------------- FOOTER SECTION -------------->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by Easy</p>
+  </section>
+
+  <!------------- TOGGLE MENU JS -------------->
+  <script>
+    let navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+</html>
+
+
