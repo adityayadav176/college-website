@@ -46,7 +46,7 @@ nav .fa-xmark{
   flex: 1;
   text-align: right;
 }
-
+/* NAVIGATION LINKS */
 .nav-links ul li {
   list-style: none;
   display: inline-block;
